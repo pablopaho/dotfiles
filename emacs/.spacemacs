@@ -62,7 +62,7 @@ values."
    ;; wrapped in a layer. If you need some configuration for these
    ;; packages, then consider creating a layer. You can also put the
    ;; configuration in `dotspacemacs/user-config'.
-   dotspacemacs-additional-packages '()
+   dotspacemacs-additional-packages '(solidity-mode)
    ;; A list of packages that cannot be updated.
    dotspacemacs-frozen-packages '()
    ;; A list of packages that will not be installed and loaded.
@@ -324,7 +324,7 @@ you should place your code here."
   :default t
   :client-id "pablopaho@gmail.com"
   :client-secret "Pa.8026.blo"
-  :token "wesurance"
+  :token "xoxp-3876121115-3922842014-339363712195-c0dfa3d74a964cbe8c854eb17c73db8e"
   :subscribed-channels '(general slackbot))
   )
 
@@ -342,7 +342,7 @@ This function is called at the very end of Spacemacs initialization."
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (org-plus-contrib yaml-mode ws-butler winum which-key web-mode web-beautify volatile-highlights vi-tilde-fringe uuidgen use-package toc-org tide tagedit symon string-inflection sql-indent spaceline-all-the-icons smeargle slim-mode slack scss-mode sass-mode restart-emacs rainbow-delimiters pug-mode popwin persp-mode pcre2el password-generator paradox overseer org-bullets open-junk-file noflet neotree nameless mvn move-text mmm-mode meghanada maven-test-mode markdown-toc magit-gitflow macrostep lorem-ipsum livid-mode linum-relative link-hint less-css-mode json-mode js2-refactor js-doc indent-guide impatient-mode hungry-delete hl-todo highlight-parentheses highlight-numbers highlight-indentation helm-xref helm-themes helm-swoop helm-purpose helm-projectile helm-mode-manager helm-make helm-gitignore helm-flx helm-descbinds helm-css-scss helm-ag groovy-mode groovy-imports gradle-mode google-translate golden-ratio gitconfig-mode gitattributes-mode git-timemachine git-messenger git-link gh-md font-lock+ flx-ido fill-column-indicator fancy-battery eyebrowse expand-region exec-path-from-shell evil-visualstar evil-visual-mark-mode evil-unimpaired evil-tutor evil-surround evil-search-highlight-persist evil-numbers evil-nerd-commenter evil-mc evil-matchit evil-magit evil-lisp-state evil-lion evil-indent-plus evil-iedit-state evil-exchange evil-escape evil-ediff evil-cleverparens evil-args evil-anzu eval-sexp-fu ensime emoji-cheat-sheet-plus emmet-mode elisp-slime-nav editorconfig eclim dumb-jump diminish define-word csv-mode counsel-projectile column-enforce-mode coffee-mode clean-aindent-mode centered-cursor-mode auto-highlight-symbol auto-compile aggressive-indent adaptive-wrap ace-window ace-link ace-jump-helm-line))))
+    (solidity-mode yaml-mode ws-butler winum which-key web-mode web-beautify volatile-highlights vi-tilde-fringe uuidgen use-package toc-org tide tagedit symon string-inflection sql-indent spaceline-all-the-icons smeargle slim-mode slack scss-mode sass-mode restart-emacs rainbow-delimiters pug-mode popwin persp-mode pcre2el password-generator paradox overseer org-plus-contrib org-bullets open-junk-file noflet neotree nameless mvn move-text mmm-mode meghanada maven-test-mode markdown-toc magit-gitflow macrostep lorem-ipsum livid-mode linum-relative link-hint less-css-mode json-mode js2-refactor js-doc indent-guide impatient-mode hungry-delete hl-todo highlight-parentheses highlight-numbers highlight-indentation helm-xref helm-themes helm-swoop helm-purpose helm-projectile helm-mode-manager helm-make helm-gitignore helm-flx helm-descbinds helm-css-scss helm-ag groovy-mode groovy-imports gradle-mode google-translate golden-ratio gitconfig-mode gitattributes-mode git-timemachine git-messenger git-link gh-md font-lock+ flx-ido fill-column-indicator fancy-battery eyebrowse expand-region exec-path-from-shell evil-visualstar evil-visual-mark-mode evil-unimpaired evil-tutor evil-surround evil-search-highlight-persist evil-numbers evil-nerd-commenter evil-mc evil-matchit evil-magit evil-lisp-state evil-lion evil-indent-plus evil-iedit-state evil-exchange evil-escape evil-ediff evil-cleverparens evil-args evil-anzu eval-sexp-fu ensime emoji-cheat-sheet-plus emmet-mode elisp-slime-nav editorconfig eclim dumb-jump diminish define-word csv-mode counsel-projectile column-enforce-mode coffee-mode clean-aindent-mode centered-cursor-mode auto-highlight-symbol auto-compile aggressive-indent adaptive-wrap ace-window ace-link ace-jump-helm-line))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
