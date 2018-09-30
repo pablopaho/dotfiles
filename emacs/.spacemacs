@@ -322,8 +322,8 @@ you should place your code here."
 (slack-register-team
   :name "wesurance"
   :default t
-  :client-id "pablopaho@gmail.com"
-  :client-secret "Pa.8026.blo"
+  :client-id "xyz@gmail.com"
+  :client-secret "xyz"
   :token "xoxp-3876121115-3922842014-339363712195-c0dfa3d74a964cbe8c854eb17c73db8e"
   :subscribed-channels '(general slackbot))
   )
