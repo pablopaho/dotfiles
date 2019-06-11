@@ -46,14 +46,14 @@
       type = Terminal
       uuid = 27c9033d-01ef-41f1-a769-6bfb44452817
     [[[terminal5]]]
-      directory = /home/pablopaho/Documents/wesura/front/wesura-landing
+      directory = /home/pablopaho/Documents/wesura/front/wesura-front
       order = 0
       parent = child4
       profile = default
       type = Terminal
       uuid = 8ec0f919-945c-448a-8bde-bf6da955db75
     [[[terminal6]]]
-      directory = /home/pablopaho/Documents/wesura/front/wesura-front
+      directory = /home/pablopaho/Documents/wesura/front/wesura-landing
       order = 1
       parent = child4
       profile = default
